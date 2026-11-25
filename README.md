@@ -11,8 +11,8 @@ A bioinformatics project that looks into whether BRCA1 mRNA concentration varies
 
 ## Key Findings
 * **Differential Subtype Expression:** BRCA1 mRNA expression differs significantly across molecular subtypes, with the highest median expression observed in **Luminal B (`BRCA_LumB`)** compared to **Luminal A (`BRCA_LumA`)** (*Mann-Whitney U test, p = 1.43e-29*).
-* **Overall Survival Analysis:** Stratifying patients into High vs. Low BRCA1 expression groups (by median `log2` expression) shows **no statistically significant difference** in overall survival (*Kaplan-Meier log-rank test, p = 0.4329*).
-* **Biological Interpretation:** Bulk BRCA1 mRNA levels alone do not serve as a standalone prognostic marker across unstratified breast cancer cohorts, underscoring the role of somatic/germline *BRCA1* mutations and subtype-specific stratification in oncology biomarker discovery.
+* **Overall Survival Analysis:** Dividing patients into High vs. Low BRCA1 expression groups (by median `log2` expression) shows **no statistically significant difference** in overall survival (*Kaplan-Meier log-rank test, p = 0.4329*).
+* **Biological Interpretation:** Having a high or low BRCA1 mRNA concentration doesn't correlate with patient survival rate if grouped up with other subtypes. Predicting patient survival rate requires checking for faulty BRCA1 DNA mutations or analyzing specific subtypes individually
 
 ## Tools & Libraries Used
 * **Language:** Python (Google Colab)
